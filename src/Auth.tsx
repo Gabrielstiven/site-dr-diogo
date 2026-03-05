@@ -4,7 +4,7 @@ interface AuthProps {
   children: React.ReactNode
 }
 
-const SENHA_CORRETA = 'seu-cliente-2026' // Mude para uma senha segura
+const SENHA_CORRETA = 'seu-cliente-2026'
 
 export default function Auth({ children }: AuthProps) {
   const [autenticado, setAutenticado] = useState(false)
@@ -54,4 +54,3 @@ export default function Auth({ children }: AuthProps) {
   }
 
   return <>{children}</>
-}
